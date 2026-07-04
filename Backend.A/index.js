@@ -1,18 +1,3 @@
-// require("dotenv").config();
-
-// const app = require("./src/app");
-// const connectDB = require("./src/config/db");
-
-// connectDB();
-
-// const PORT = process.env.PORT || 5000;
-
-// app.listen(PORT, () => {
-//   console.log(`Server running on port ${PORT}`);
-// });
-// app.get("/", (req, res) => {
-//    res.send("API is running");
-// });
 require("dotenv").config();
 
 const app = require("./src/app");
@@ -27,6 +12,5 @@ app.get("/", (req, res) => {
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log("server is connected successfully");
 });
-
